@@ -19,6 +19,7 @@ function NewsList() {
             return(
                 <NewsItems
                     title={articles.title}
+                    author={articles.author}
                     publishedAt={articles.publishedAt}
                     description={articles.description}
                     url={articles.url}
