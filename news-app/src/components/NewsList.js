@@ -19,10 +19,10 @@ function NewsList() {
             return(
                 <NewsItems
                     title={articles.title}
-                    date={articles.date}
+                    publishedAt={articles.publishedAt}
                     description={articles.description}
                     url={articles.url}
-                    urltoImage={articles.ur}
+                    urlToImage={articles.urlToImage}
                 
                 />
             )
