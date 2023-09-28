@@ -1,3 +1,6 @@
+/*background css*/
+
+
 .news-app {
     display: flex;
     justify-content: center;
@@ -13,3 +16,4 @@
 .news-img {
     width: 400px;
 }
+
